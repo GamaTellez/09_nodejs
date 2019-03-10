@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="">
+  <!-- to stop favincon error --><link rel="shortcut icon" href=""> 
+  <!-- <script type="text/javascript" src="shipping_calc_function.js"></script> -->
+</head>
+
+<body>
+
+  <h1>09 Prove: Postal Rate Calculator!</h1>    
+    <div style="text-align:center">
+        <form id="shipping_form" action="/calc_function">
+            Item Wieght:<br>
+            <input type="text" name="weight" id="shipping_weight">
+            <br>
+            Mail Type:<br>
+            <select name="item_type" id="shipping_type">
+                <option value=""> Select </option>
+                <option value="Letters (Stamped)"> Letters (Stamped) </option>
+                <option value="Letters (Metered)"> Letters (Metered) </option>
+                <option value="Large Envelopes (Flats)"> Large Envelopes (Flats) </option>
+                <option value="First Class Service - Retail"> First Class Service - Retail </option>
+            </select>
+        </form>
+        <button type="submit" form="shipping_form"> Submit </button>
+    </div>
+
+</body>
+
+</html>
