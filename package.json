@@ -1,0 +1,32 @@
+{
+  "name": "09_nodejs",
+  "version": "1.0.0",
+  "description": "first node assignment CS313",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GamaTellez/09_nodejs.git"
+  },
+  "keywords": [
+    "fisrt",
+    "nodejs",
+    "app"
+  ],
+  "author": "Gama Tellez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GamaTellez/09_nodejs/issues"
+  },
+  "engines": {
+    "node": "11.10.0"
+  },
+  "homepage": "https://github.com/GamaTellez/09_nodejs#readme"
+}
